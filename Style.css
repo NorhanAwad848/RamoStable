@@ -1,0 +1,378 @@
+/* navagation*/
+body
+{   font-family: cursive;
+    margin:0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-image:url(./asset/background4.jpg) ;
+    background-size:cover;
+}
+.topnav
+{
+    width: 100%;
+}
+.nav
+{
+    width: 100%;
+    height: 80px;
+    background-color:  #000;
+    opacity: 0.9;
+    line-height: 45px;
+}
+.nav ul
+{
+    float: right;
+    margin-right: 60px;
+}
+.nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    margin-bottom: 10px;
+}
+.nav ul li:hover
+{
+    background-color: #f39d13;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    padding: 30px;
+}
+#logo
+{   width: 100px;
+    height:80px;
+    float: left;
+    margin-left: 60px;
+    color: #fff;
+}
+/* introduction*/
+.intro h1
+{
+    margin: 200px;
+    color:antiquewhite;
+}
+.intro
+{  width: auto;
+    background-image: url(./asset/stable6.jpg);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    margin-top: 7px;
+}
+
+#About{
+    height: 500px;
+    margin-top: 7px;
+}
+#About p
+{
+    color:rgb(8, 8, 8);
+    margin: 30px 100px;
+}
+#About h2
+{
+    color:rgb(11, 0, 0);
+    margin: 100px;
+}
+#About img
+{
+    float: right;
+    margin-right: 100px;
+    width: 35%;
+    height: auto;
+    border-radius: 78px  78px;
+}#About span
+{
+    color:#f39d13;
+}
+
+/*Type*/
+#Type
+{
+    min-height: 70vh;
+}
+#Type h1
+{   
+    margin: auto;
+    text-align: center;
+    
+}
+#Type h3
+{
+    margin: 70px 0px auto 150px;
+    
+}
+
+.container
+{
+    margin: 70px  0px auto 190px;
+    width:1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.card
+{
+    position: relative;
+    left:-8%;
+    width: 300px;
+    height: 370px;
+    transition: 0.3s ease-out;
+    box-shadow: 0 3px 15px black;
+}
+.card .imgbox 
+{
+    position: relative;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.card .imgbox  img
+{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:80%;
+    display: block;
+    transition:0.5s;
+}
+.card .text
+{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height:100px;
+    padding: 12px;
+    background: rgb(27,27,27,.5);
+    transition: all 0.5s cubic-bezier(.48,-0.28,0.41,1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.card:hover .text
+{
+    width: 100%;
+    height:75%;
+    left:0;
+    bottom:0;
+}
+
+.text h2
+{
+    text-align: center;
+
+} 
+.text p
+{
+    margin:10px 0 0;
+    padding:1em  1em;
+    transform:translateY(2em);
+    line-height: 1.3em;
+    transition: 0.3s;
+    text-align:justify;
+    opacity: 0;
+   color: rgb(223, 206, 206);
+}
+.card:hover .text p
+{
+    transform: translateY(0);
+    opacity: 1;
+}
+.card:hover
+{
+    box-shadow: 0 0 5em rgba(0.0.0.0.4);
+}
+/*booking*/
+#book
+{
+    height: 600px;
+    margin: 100px;
+    background-image: url(./asset/book3.jpg);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.booking legend
+{
+color: rgb(205, 193, 193);
+}
+#book 
+{
+    min-height: 70vh;
+}
+.booking
+{
+  float:left;
+  background-color: rgba(0, 0, 0,0.5);
+  width:50%;
+  height: auto;
+  font-size: 20px;
+  border-radius: 10px;
+  border:1px solid rgba(255,255,255,0.3);
+  box-shadow: 2PX 2PX 15PX RGba(0,0,0,0.3);
+  color:#fff;
+  margin:50px;
+
+  
+}
+.fbook
+{
+    margin:40px 190px;
+
+}
+#la
+{
+    font-style: italic;
+}
+.fbook input
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+.fbook button
+{
+    width: 180px;
+    padding: 7px;
+    margin-left: 70px;
+    font: size 16px; 
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(255,100,0,0.8);
+    cursor: pointer;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+
+/* footer*/
+aside
+{
+    width: 100%;
+    height: 50px;
+    background-color:  #000;
+
+}
+aside p
+{
+
+    text-align: center;
+    color: #f39d13;
+}
+@media only screen and (max-width: 700px) 
+{
+    /* For mobile phones: */
+    .topnav
+{
+    width: 700px;
+}
+.nav
+{
+    width: 700px;
+}
+#About{
+    height: 700px;
+    width: 700px;
+}
+#logo
+{   
+    width: 70px;  
+}
+/* introduction*/
+
+.intro
+{  
+    width: 700px;
+    height: 700px;
+}
+/*Type*/
+#Type
+{
+    min-height: 70vh;
+}
+#Type h1
+{   
+    margin-right: 250px;
+    text-align: center; 
+}
+#Type h3
+{
+    margin: 70px; 
+}
+
+.container
+{
+    margin: 100px;
+    width:500px;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+.card
+{
+    width: 110px;
+}
+
+/*booking*/
+#book
+{  
+    width: 600px;
+    margin: 70px;
+}
+.booking
+{
+  width: 500px;;
+  height: 500px;
+  font-size: 10px;
+  margin: 60px;
+  /* margin:50px 250px 40px 340px; */
+}
+.fbook
+{
+    margin:40px 190px;
+}
+
+.fbook input
+{
+    width: 200px;
+    padding: 7px;
+}
+.fbook button
+{
+   margin: 10px;
+   width: 190px;
+}
+aside
+{
+    width: 700px;
+}
+
+
+}
+
+
+
+    
+   
+

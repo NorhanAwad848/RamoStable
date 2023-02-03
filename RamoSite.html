@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ramo Stable</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+        <link href="./Style.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+        <!-- navagation -->
+       <header class="topnav">
+            <nav class="nav"> 
+                <img src="./asset/logo9.jpg" id="logo">
+                
+                   <ul>
+                        <li><a href="#intro">Home</a></li> 
+                        <li> <a href="#About">About</a></li>
+                        <li><a href="#Type">Type</a></li>
+                        <li><a href="#book"> Booking</a></li>
+                   </ul>
+            </nav>
+        </header>
+        <!-- introduction -->
+        <main>
+                <article class="intro">
+                    <h1>Welcome To Ramo Stable</h1> 
+                </article>
+         <br/> <br/><br/> <br/>
+            <!-- Type -->
+            
+                <article >
+                    <section id="Type">
+                         <h1>Type of Horses</h1>
+                         <h3> -Identification of Horses By Colors</h3>
+                        <div class="container">
+                            <div class="card">
+                                  <div class="imgbox">
+                                    <img src="./asset/black.jpg" id="img"> 
+                                  </div>
+                                  <div class="text">
+                                     <h2>Black</h2>
+                                     <p>The whole body is covered with black hairs of a horse body. The mane, tail, ear, legs are also black. There may be some marking on the body, but mostly the skin is covered with black hair.</p>
+                                  </div>
+                            </div>
+                            <div class="card">
+                                <div class="imgbox">
+                                   <img src="./asset/Bay.jpg" id="img"> 
+                                </div>
+                                   <div class="text">
+                                      <h2>Bay</h2>
+                                      <p>The hair of the body is reddish or red-yellowish, but the hairs of legs, tail, and mane are black.</p>
+                                   </div>
+                            </div>
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img src="./asset/gray.jpg" id="img"> 
+                                </div>
+                                    <div class="text">
+                                        <h2>Grey</h2>
+                                        <p>The whole body is mixed with white and a few black hairs. Sometimes black to brownish scar is seen.</p>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img src="./asset/yellow.jpg" id="img"> 
+                                </div>
+                                    <div class="text">
+                                        <h2>Yellow Dun</h2>
+                                        <p>Diffuse yellowish color can be seen in hair.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            
+              <!-- About -->
+            
+                <article id="About">
+                    <section >
+                        <figure>
+                            <img src="./asset/stable7.jpg"  />
+                        </figure>
+                        <h2> About  <span>Ramo</span> Stable</h2>
+                        <p >The Ramo  Stable is one of the most luxurious horse stables that exists.<br/> It is based in Egypt and looks more like a museum than a horse stable.<br/> 
+
+                            The barn is furnished with marble floors, magnificent sculptures, chandeliers,<br/> grand stairs covered in red carpets, gold ceilings, and a shopping mall and<br/> equestrian training facilities. 
+                            
+                            This stable accommodates over 300 different<br/> horses, which consists of 43 different breeds of horses, and represents 30<br/> different countries. 
+                            
+                            Guests can come and view these horses in the <br/>“meet and greet” area, which helps people learn about the different breeds. <br/>The horses on duty for the day live in marble stables and are often done with <br/>their manes braided or styled. 
+                            
+                            Within the barn, there is a space for dressage<br/> to be performed. This dressage performance space helped the Heilan Horse <br/>Museum to break the Guinness World Record for the biggest-ever horse dressage. </p>
+                    </section>
+                </article>
+                <br/> <br/> <br/> <br/> <br/> &nbsp; &nbsp; &nbsp; 
+                
+                <article id="book">
+                    <section class="booking">
+                        <!-- <legend> Booking for training</legend> -->
+                        <form class="fbook" method="post">
+                            <h1>Booking for training</h1>
+                        <label for="first" id="la">First Name:</label>
+                        <br/>
+                        <input type="teaxt"  id="first" placeholder="First Name" required/>
+                        <br/>
+                        <lable for="last" id="la">Last Name:</lable>
+                        <br/>
+                        <input type="text" id="last" placeholder="Last Name" required/>
+                        <br/>
+                        <lable for="email" id="la">Email</lable>
+                        <br/>
+                        <input type="email"  id="email" placeholder="Email" required/> 
+                        <br/>
+                        <lable for="date" id="la">  select your available date :</lable>
+                        <br/>
+                        <input type="date"  id="date" placeholder="available date" required/>
+                        <br/>
+                        <lable for="trainer" id="la"> Trainer</lable>
+                        <br/>
+                        <input list="trainers" name="trainee" id="trainer" placeholder="Trainers" required >
+                            <datalist  id="trainers">
+                                <option value="Mohamed Marwan">
+                                <option value="Ahmed Mohamed">
+                                <option value="Nermeen Ahmed">
+                                <option value="Mona Ali">
+                            </datalist>
+                            <br/>
+                        <lable for="horse" id="la">  choose your horse:</lable>
+                        <br/>
+                        <input list="horses" name="horse" id="horse" placeholder="Horses"  required >
+                            <datalist  id="horses">
+                                <option value="Ramo">
+                                <option value="Athens">
+                                <option value="Mohra">
+                                <option value="Rahwan">
+                            </datalist>
+                            <br/>
+                            <br/>
+                    <button > Submit</button>
+                </form>
+            </section>
+            </article>
+        </main>
+        <footer >
+           <aside> 
+            <p>Copyright &copy; 2023 Ramo Stable  - Designed by : Norhan Awad</p>
+           </aside>
+        </footer>
+    </body>
+</html>
